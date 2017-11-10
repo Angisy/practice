@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sx.wx.recy.MainActivity">
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/recycle"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="hello" />
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="start"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_stop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="stop"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="bind service"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/unbind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="unbind service"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_db"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="create db" />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="call" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="content"
+        android:id="@+id/content"
+        android:layout_height="40dp" />
+
+</LinearLayout>

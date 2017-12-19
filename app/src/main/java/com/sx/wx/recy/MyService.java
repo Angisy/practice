@@ -26,7 +26,7 @@ public class MyService extends Service {
     }
 
     class DownloadBinder extends Binder {
-        public void startDownload() {
+        public void startDownload(String url) {
             Log.d(TAG, "start download executed");
         }
 

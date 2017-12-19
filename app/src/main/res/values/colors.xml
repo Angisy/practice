@@ -1,6 +1,289 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3e50b4</color>
+    <color name="colorPrimaryDark">#3e50b4</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_divider_line">#797979</color>
+    <color name="color_home_divider_line">#ffffff</color>
+    <color name="color_whole_divider_line">#e4ebf1</color>
+
+    <color name="color_progress_bar_left">#ff00ff33</color>
+    <color name="color_progress_bar_right">#ffcccccc</color>
+    <color name="color_progress_bar_text">#ff454545</color>
+
+    <color name="color_progress_bar_bg">#ffcccccc</color>
+
+    <color name="color_view_pager_bg">#ffffff</color>
+
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#ff0000ff</color>
+
+    <color name="table_line_color">#aaaaaa</color>
+
+    <!-- home start -->
+
+    <color name="home_menu_bg_color">#f0f0f0</color>
+    <color name="home_menu_layout_bg_color">#ffffff</color>
+    <color name="home_tv_copyright_text_color">#bcbcbc</color>
+    <color name="home_divider_color">#cfcfcf</color>
+
+    <!-- home end -->
+
+    <!-- setting start -->
+
+    <color name="tv_setting_menu_text_color">#464646</color>
+    <color name="setting_divider_color">#d6d6d6</color>
+    <!-- setting end -->
+
+    <!-- city detail start -->
+    <color name="color_city_detail_title_bg">#e4ebf1</color>
+    <color name="color_city_detail_title_text_normal">#8ca8bf</color>
+    <color name="color_city_detail_title_text_selected">#313131</color>
+    <!-- city detail end -->
+
+    <!-- health start -->
+    <color name="health_radar_line_color">#54adff</color>
+    <color name="health_radar_bg_line_color">#bdbdbd</color>
+    <color name="health_radar_label_text_color">#54adff</color>
+    <color name="health_pie_label_line_color">#54adff</color>
+    <color name="health_pie_label_text_color">#54adff</color>
+    <!-- health end -->
+
+    <!-- key_work start -->
+    <color name="key_work_title_text_color">#7799ee</color>
+    <color name="key_work_divider_line_color">#f8fbef</color>
+    <!-- key_work end -->
+
+    <!-- weakness start -->
+    <color name="weakness_title_normal_text_color">#7799ee</color>
+    <color name="weakness_title_count_text_color">#ff3300</color>
+    <color name="weakness_title_table_item_text_color">#636363</color>
+    <!-- weakness end -->
+
+    <!-- tools start -->
+    <color name="colorTitle">#e5e5ff</color>
+    <!-- tools end -->
+
+    <!-- whole content activity start -->
+
+    <color name="line_chart_view_axis_color">#dbecfc</color>
+    <color name="line_chart_view_line_color">#00ff4d</color>
+    <color name="line_chart_view_avg_line_color">#48a7fe</color>
+    <color name="line_chart_view_dot_color">#48a7fe</color>
+    <color name="pie_chart_view_finished_color">#80c2ff</color>
+    <color name="pie_chart_view_unfinished_color">#45a5fe</color>
+    <color name="whole_bottom_x_color">#dbecfc</color>
+    <color name="whole_bottom_y_color">#dbecfc</color>
+    <color name="whole_bottom_img_text_color">#000000</color>
+    <color name="whole_bottom_img_fill_color1">#d5e9fd</color>
+    <color name="whole_bottom_img_fill_color2">#80c2ff</color>
+    <color name="whole_bottom_img_fill_color3">#69b6fd</color>
+    <color name="whole_bottom_img_fill_color4">#45a5fd</color>
+    <!-- whole content activity end -->
+
+    <color name="color_scene_1">#B4B5B6</color>
+    <color name="color_scene_2">#DBECFC</color>
+    <color name="color_scene_3">#0079E0</color>
+    <color name="color_scene_4">#E00000</color>
+    <color name="color_scene_5">#E4EBF1</color>
+    <color name="color_scene_6">#008001</color>
+    <color name="pie_chart_view_1">#80C2FF</color>
+    <color name="pie_chart_view_2">#45A5FE</color>
+    <color name="pie_chart_view_3">#178FFE</color>
+    <!--Gis activity-->
+    <color name="detail_1">#178FFE</color>
+    <color name="detail_2">#ff737373</color>
+
+    <color name="action_bar_color">#3e50b4</color>
+    <color name="action_bar_text_color">#ffffff</color>
+    <color name="action_bar_iv_bg_color_pressed">#99aaaaaa</color>
+
+    <!-- 集中分析 统计页面 start -->
+    <color name="analysis_main_bg_color">#f0f0f0</color>
+    <color name="analysis_main_type_main_text_color">#464646</color>
+    <color name="analysis_main_type_sub_text_color">#969696</color>
+    <color name="analysis_main_type_layout_divider_color">#d7d4d4</color>
+    <!-- 集中分析 统计页面 end -->
+
+    <!-- 集中分析 工单列表 start -->
+    <color name="work_order_list_item_main_text_color">#000000</color>
+    <color name="work_order_list_item_sub_text_color">#666666</color>
+    <color name="work_order_list_item_bg_normal_color">#f5f5f5</color>
+    <color name="work_order_list_item_bg_pressed_color">#cfcfcf</color>
+    <!-- 集中分析 工单列表 end -->
+
+    <!-- 集中分析 工单处理 start -->
+    <color name="work_order_detail_recycler_view_bg_color">#f5f5f5</color>
+    <color name="work_order_detail_item_name_text_color">#000000</color>
+    <color name="work_order_detail_item_value_text_color">#666666</color>
+    <!-- 集中分析 工单处理 end -->
+
+    <!-- 集中分析 工单搜索 start -->
+    <color name="work_order_search_tv_title_text_color">#313131</color>
+    <color name="work_order_search_tv_key_text_color">#33b0f1</color>
+    <color name="work_order_search_layout_divider_line_color">#c8c8c8</color>
+    <color name="work_order_tv_empty_text_color">#313131</color>
+    <!-- 集中分析 工单搜索 end -->
+
+    <!-- 工单处理 流转信息 start -->
+    <color name="flow_info_recycler_view_bg_color">#e2e2e2</color>
+    <color name="flow_info_item_bg_normal_color">#f5f5f5</color>
+    <color name="flow_info_item_bg_pressed_color">#e2e2e2</color>
+    <color name="flow_info_item_main_text_color">#000000</color>
+    <color name="flow_info_item_sub_text_color">#777777</color>
+    <!-- 工单处理 流转信息 end -->
+
+    <!-- divider line start -->
+    <color name="recycler_view_divider_color">#e2e2e2</color>
+    <color name="work_order_detail_layout_bottom_divider_color">#b0b0b0</color>
+    <color name="recycler_view_flow_info_divider_color">#e2e2e2</color>
+    <color name="flow_info_divider_color">#e2e2e2</color>
+    <color name="recycler_view_work_order_divider_color">#cfcfcf</color>
+    <color name="recycler_view_work_order_search_history_divider_color">#c8c8c8</color>
+    <!-- divider line end -->
+
+
+    <color name="transparent">#00000000</color>
+    <color name="black_444444">#444444</color>
+    <color name="black_888888">#888888</color>
+    <color name="text_color_green_013ADF">#013ADF</color>
+    <color name="blue_6eb">#6eb0f3</color>
+    <color name="gray_aaa">#aaaaaa</color>
+    <color name="gray_eee">#EEEEEE</color>
+    <color name="blue_afe">#2e9afe</color>
+    <color name="pink_ece">#F6CECE</color>
+    <color name="red_111">#FF1111</color>
+    <color name="main_color">#CAE1FF</color>
+    <color name="green_7dd">#7ddb8a</color>
+
+    <!-- tab layout start -->
+    <color name="tab_layout_bg_color">#ffffff</color>
+    <color name="tab_layout_indicator_color">@color/colorPrimary</color>
+    <color name="tab_layout_text_color">#666666</color>
+    <color name="tab_layout_selected_text_color">@color/colorPrimary</color>
+    <!-- tab layout end -->
+
+    <!-- ProgressBar start -->
+    <color name="progressBar_go_color">#f97b54</color>
+    <color name="progressBar_bg_color">#ffdfd8</color>
+    <color name="maintain_bg_color">#f0f0f0</color>
+    <color name="maintain_ud_color">#ececec</color>
+    <!-- ProgressBar end -->
+    <color name="set_time_picker_theme_color">#3e50b4</color>
+    <color name="set_time_picker_text_normal_color">#b8b8b8</color>
+    <color name="set_time_picker_text_select_color">#000000</color>
+
+    <!-- loading empty start -->
+    <color name="loading_empty_text_color">#313131</color>
+    <!-- loading empty end -->
+    <color name="gis_measure_distance_line">#1eaaf3</color>
+
+    <!-- Maintain 集中维护 start -->
+    <color name="maintain_manage_bg_color">#f0f0f0</color>
+    <color name="maintain_manage_chart_bg_start_color">#3e50b4</color>
+    <color name="maintain_manage_chart_bg_end_color">#2e41a6</color>
+    <color name="maintain_manage_item_layout_bg_color">#ffffff</color>
+    <color name="maintain_manage_item_tv_title_text_color">#464646</color>
+    <color name="maintain_manage_item_tv_content_text_color">#464646</color>
+    <color name="maintain_manage_item_tv_count_text_color">#bbbbbb</color>
+    <color name="maintain_manage_inquiry_statistics_menu_divider_color">#f1f0f0</color>
+    <color name="maintain_manage_item_repairs_allot_recycler_view_item_count_text_size">#ffffff
+    </color>
+
+    <color name="maintain_out_storage_menu_bg_color">#7ddb8a</color>
+    <color name="maintain_in_storage_menu_bg_color">#1e90ff</color>
+    <color name="maintain_in_out_item_tv_manufacturer_text_color">#ffffff</color>
+    <color name="maintain_in_out_item_tv_model_description_text_color">#464646</color>
+    <color name="maintain_in_out_item_tv_location_num_text_color">#bbbbbb</color>
+    <color name="maintain_in_out_item_tv_menu_in_out_text_color">#ffffff</color>
+    <color name="maintain_bottom_btn_commit_text_color">#ffffff</color>
+    <color name="maintain_bottom_btn_commit_bg_color">#7ddb8a</color>
+
+    <color name="repairs_item_tv_manufacturer_text_color">#ffffff</color>
+    <color name="repairs_item_tv_model_description_text_color">#464646</color>
+    <color name="repairs_item_tv_date_text_color">#bbbbbb</color>
+    <color name="repairs_item_tv_count_text_color">#ff0000</color>
+    <color name="repairs_item_tv_count_title_text_color">#bbbbbb</color>
+    <!-- 通用 main and sub -->
+    <color name="repairs_item_main_tv_text_color">#464646</color>
+    <color name="repairs_item_sub_tv_text_color">#bbbbbb</color>
+
+    <color name="repairs_item_advice_tv_text_color">#ffffff</color>
+
+    <color name="repairs_item_menu_delete_bg_color">#fa5252</color>
+    <color name="repairs_item_menu_reply_bg_color">#329def</color>
+    <color name="repairs_item_menu_edit_bg_color">#cfcfcf</color>
+
+    <color name="apply_out_content_layout_bg_color">#ffffff</color>
+    <color name="apply_out_content_title_text_color">#464646</color>
+    <color name="apply_out_content_value_text_color">#bbbbbb</color>
+    <color name="apply_out_tv_scan_code_value_text_color">#1e90ff</color>
+
+    <!-- 无线作业计划 -->
+    <color name="maintain_plan_item_layout_bg_color">#ffffff</color>
+    <color name="maintain_plan_item_title_tv_text_color">#4e4e4e</color>
+    <color name="maintain_plan_item_sub_title_tv_text_color">#464646</color>
+    <color name="maintain_plan_item_content_tv_text_color">#969696</color>
+    <color name="maintain_plan_item_execute_plan_divider_color">#d7d4d4</color>
+
+    <!-- 代维巡查质量核查 -->
+    <color name="quality_item_title_tv_text_color">#464646</color>
+    <color name="quality_item_count_tv_text_color">#ff0000</color>
+    <!-- 室分巡查质量核查 -->
+    <color name="quality_check_recycler_view_item_city_name_tv_text_color">#464646</color>
+    <color name="quality_check_recycler_view_item_count_tv_text_color">#969696</color>
+    <!-- 待执行列表 start -->
+    <color name="plan_todo_item_tv_name_text_color">#464646</color>
+    <color name="plan_todo_item_menu_find_cell_bg_color">#c4c4c4</color>
+    <color name="plan_todo_item_menu_scene_check_bg_color">#329def</color>
+    <!-- 待执行列表 end -->
+
+    <!-- 现场检查 start -->
+    <color name="scene_check_photo_iv_stroke_color">#dcdcdc</color>
+    <color name="scene_check_tv_sub_title_text_color">#969696</color>
+    <color name="scene_check_divider_color">#d7d4d4</color>
+    <color name="scene_check_tv_main_content_text_color">#464646</color>
+    <color name="scene_check_layout_item_bg_color">#ffffff</color>
+    <!-- 现场检查 end -->
+
+    <!-- Maintain 集中维护 end -->
+
+    <!-- gis search start -->
+    <color name="search_bar_et_search_text_color">#464646</color>
+    <color name="search_bar_et_search_hint_text_color">#c8c8c8</color>
+    <color name="search_bar_tv_search_type_text_color">#ffffff</color>
+
+    <color name="tv_search_type_title_text_color">#464646</color>
+    <color name="gis_search_result_item_tv_main_text_color">#464646</color>
+    <color name="gis_search_result_item_tv_sub_text_color">#969696</color>
+    <!-- gis search end -->
+
+    <!-- 点击背景 start -->
+    <color name="common_item_layout_normal_color">#ffffff</color>
+    <color name="common_item_layout_pressed_color">#cfcfcf</color>
+    <!-- 点击背景 end -->
+    <color name="gis_bottom_cell_list_name_color">#329def</color>
+    <color name="gis_bottom_cell_list_name_place_color">#bababa</color>
+    <color name="gis_bottom_line_color">#c7c7c7</color>
+    <color name="item_off_map_tv_color">#464646</color>
+    <color name="offline_map_activity_bg">#ffffff</color>
+
+
+    <!--小区详情界面 start-->
+    <color name="cell_details_item_text_key_color">#464646</color>
+    <color name="cell_details_item_text_value_color">#969696</color>
+    <color name="cell_details_item_line_color">#cfcfcf</color>
+    <!--小区详情界面 end-->
+
+
+    <!--LoadDataLayout -->
+    <color name="load_data_layout_gray_light">#F1F1F1</color>
+    <color name="load_data_layout_page_background">#ffffff</color>
+    <color name="text_color_theme">@color/colorPrimaryDark</color>
+    <color name="text_color_child">#6A6A6A</color>
+    <color name="tv_color_cell_list_title">#ffffff</color>
+    <color name="bg_color_cell_list_title">#329def</color>
 </resources>

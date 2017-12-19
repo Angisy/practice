@@ -7,7 +7,7 @@ package com.sx.wx.recy;
 public interface DownLoadListener {
     void onProgress(int progress);
 
-    void onSucess();
+    void onSuccess();
 
     void onFailed();
 

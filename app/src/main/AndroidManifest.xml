@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -25,7 +26,29 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".ContentResoverActivity"></activity>
+        <activity android:name=".ContentResoverActivity" />
+
+        <service
+            android:name=".DownLoadService"
+            android:enabled="true"
+            android:exported="true" />
+        <!-- name 对应属性值 android.support.v4.content.FileProvider 或者子类对应的完整路径 -->
+        <!-- authorities 常量 通常为包名 或者包名.fileprovider -->
+        <!-- exported 表示是否支持其它应用调用当前组件，通常设置为false -->
+        <!-- grantUriPermissions 设置为true 表示允许获得文件临时的访问权限 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sx.wx.recy"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- name 为固定的系统常量 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity android:name=".ProviderActivity"></activity>
     </application>
 
 </manifest>
